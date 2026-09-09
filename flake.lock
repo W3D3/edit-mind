@@ -34,10 +34,26 @@
         "type": "github"
       }
     },
+    "prisma-utils": {
+      "locked": {
+        "lastModified": 1775221764,
+        "narHash": "sha256-fwpba4vL4JrMJEbHeorLkn6z3+kjO+5RRZB6fh8ZIwY=",
+        "owner": "VanCoding",
+        "repo": "nix-prisma-utils",
+        "rev": "984c6b0eb4b36cf3ebfb29dc7247e221d15a083e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "VanCoding",
+        "repo": "nix-prisma-utils",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "prisma-utils": "prisma-utils"
       }
     },
     "systems": {
