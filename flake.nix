@@ -14,7 +14,7 @@
         prisma = prisma-utils.lib.prisma-factory {
           inherit pkgs;
           # leave empty on first run — nix will report the correct hash
-          hash = "";
+          hash = "sha256-JnuIC5XKRH3puMpoFR45Js97owOmrhH6srpmXs2GCVc=";
           pnpmLock = ./pnpm-lock.yaml;
         };
       in
